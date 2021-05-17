@@ -1,0 +1,13 @@
+.footer__column-link {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  /* Создает необходимый отступ между элементами. */
+  text-decoration: none;
+  transition: opacity 1s ease-out;
+  /* Можно использовать transition */
+}
+
+.footer__column-link:hover {
+  opacity: 0.3;
+}

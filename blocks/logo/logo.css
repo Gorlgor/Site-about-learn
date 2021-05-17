@@ -1,0 +1,10 @@
+@import url('./_place/logo_place_header.css');
+@import url('./_place/logo_place_footer.css');
+
+.logo {
+  width: 183px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* В блок выносим только общие описательные стили, не влияющие на внешнюю геометрию и позиционирование */
+}

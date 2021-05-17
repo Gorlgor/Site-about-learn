@@ -1,0 +1,19 @@
+@import url('./__link/feinman__link.css');
+@import url('./__title/feinman__title.css');
+@import url('./__subtitle/feinman__subtitle.css');
+
+.feinman {
+  min-height: 790px;
+  background: #F2F2F2;
+  background-image: url('../../images/feinman.png');
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  background-position: left bottom;
+  /*
+  Можно использовать shorthand:
+  background: no-repeat left bottom url('../images/feinman.png'),
+  #F2F2F2;
+  background-size: 867px 637px;
+  */
+  position: relative;
+}

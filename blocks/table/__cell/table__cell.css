@@ -1,0 +1,19 @@
+
+.table__cell {
+  width: calc(100% / 4 - 40px);
+  margin: 60px 20px 0;
+}
+
+
+/*
+Альтернатива:
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  padding: 0;
+}
+
+
+
+*/
